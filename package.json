@@ -1,0 +1,41 @@
+{
+    "name": "@xcainte-ui/ui",
+    "description": "Minimal component library built with Radix UI and styled-components.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xcainte-ui/ui.git"
+    },
+    "keywords": [
+        "ui",
+        "components"
+    ],
+    "author": {
+        "name": "xcainte",
+        "url": "https://twitter.com/xcainte"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xcainte-ui/ui/issues"
+    },
+    "homepage": "https://github.com/xcainte-ui/ui#readme",
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev",
+        "lint": "turbo run lint",
+        "clean": "turbo run clean && rm -rf node_modules",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+        "changeset": "changeset",
+        "version-packages": "changeset version",
+        "release": "turbo run build --filter=docs^... && changeset publish"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.25.2",
+        "prettier": "^3.0.3",
+        "turbo": "latest"
+    },
+    "packageManager": "npm@9.8.1",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ]
+}
