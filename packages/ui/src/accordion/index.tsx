@@ -44,7 +44,6 @@ export interface AccordionProps {
 
 export function Accordion(props: AccordionProps): JSX.Element {
     const { items } = props;
-    console.log(props);
 
     return (
         <AccordionRoot
