@@ -70,7 +70,7 @@ const Button = styled.button`
     }
     .green {
         background-color: ${green.green3};
-        color: var(--green-11);
+        color: ${green.green11};
     }
     .green:hover {
         background-color: ${green.green5};
