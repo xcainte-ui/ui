@@ -18,6 +18,22 @@ export { Button, type ButtonProps } from './button';
 export { Checkbox, type CheckboxProps } from './checkbox';
 export { Collapsible, type CollapsibleProps } from './collapsible';
 export {
+    ContextMenuRoot,
+    ContextMenuSub,
+    ContextMenuTrigger,
+    ContextMenuPortal,
+    ContextMenuContent,
+    ContextMenuSubContent,
+    ContextMenuItem,
+    ContextMenuCheckboxItem,
+    ContextMenuRadioGroup,
+    ContextMenuRadioItem,
+    ContextMenuSubTrigger,
+    ContextMenuLabel,
+    ContextMenuSeparator,
+    ContextMenuItemIndicator,
+} from './context-menu';
+export {
     DialogRoot,
     DialogTrigger,
     DialogTitle,
