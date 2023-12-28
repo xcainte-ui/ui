@@ -42,3 +42,20 @@ export {
     DialogFooter,
     DialogPortal,
 } from './dialog';
+export {
+    DropdownMenuRoot,
+    DropdownMenuTrigger,
+    DropdownMenuPortal,
+    DropdownMenuContent,
+    DropdownMenuSub,
+    DropdownMenuSubContent,
+    DropdownMenuItem,
+    DropdownMenuCheckboxItem,
+    DropdownMenuRadioGroup,
+    DropdownMenuRadioItem,
+    DropdownMenuSubTrigger,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuItemIndicator,
+    DropdownMenuArrow,
+} from './dropdown-menu';
