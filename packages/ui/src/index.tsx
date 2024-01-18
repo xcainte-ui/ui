@@ -59,3 +59,4 @@ export {
     DropdownMenuItemIndicator,
     DropdownMenuArrow,
 } from './dropdown-menu';
+export { HoverCard, type HoverCardProps } from './hover-card';
