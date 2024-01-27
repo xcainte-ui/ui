@@ -60,3 +60,4 @@ export {
     DropdownMenuArrow,
 } from './dropdown-menu';
 export { HoverCard, type HoverCardProps } from './hover-card';
+export { Label, type LabelProps } from './label';

@@ -102,5 +102,3 @@ export function HoverCard(props: HoverCardProps) {
         </HoverCardPrimitiveRoot>
     );
 }
-
-export default HoverCard;
